@@ -194,10 +194,11 @@ hr.small {
     background: #EEF0F2
 }
 
+/* This is optional, change the background when modal pop up
 .fade {
     background: rgba(201, 210, 226, 0.53);
 }
-
+*/
 .services {
     padding: 50px 0;
 }
