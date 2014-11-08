@@ -16,6 +16,9 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -170,6 +173,30 @@ hr.small {
 }
 
 /* Services */
+
+.modal-content .modal-body {
+    color:black; 
+}
+
+.modal-header .modal-title {
+    color: black;
+}
+
+.modal-content {
+    background: #ECEBF0;
+}
+
+.modal-content {
+    padding: 10;
+}
+
+.modal-footer button {
+    background: #EEF0F2
+}
+
+.fade {
+    background: rgba(201, 210, 226, 0.53);
+}
 
 .services {
     padding: 50px 0;

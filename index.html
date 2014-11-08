@@ -20,6 +20,10 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -50,7 +54,7 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#services">Staff</a>
+                <a href="#services">Service</a>
             </li>
             <li>
                 <a href="#impact">Impact</a>
@@ -93,7 +97,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Smiley Staff</h2>
+                    <h2>Who We Help</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -101,12 +105,31 @@
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Education</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <br>
+                                <!-- Button trigger modal -->
+                               <button type="button" class="btn btn-light" data-toggle="modal" data-target="#education_modal">Learn More</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="education_modal" tabindex="-1" role="dialog" aria-labelledby="education_modalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title">Education</h3>
+                                        </div>
+                                      <div class="modal-content">
+                                        <p class="modal-body">As the umbrella corporation of NGOs, SmileyGo has assisted Yatay Peru, which teaches Andean children music. SmileyGo has empowered NGOs to offer merit-based college scholarships for teenagers in rural Pampas Grandes, Huaraz Music is the world’s language that integrates cultures in our 21st century globe. With Yatay Peru, we have sent twenty volunteers every six months to share our musical knowledge with the kids. As a result, volunteers send videos via YouTube to continue making a difference in this community.</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -116,10 +139,28 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Environment</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <br>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#environment_modal">Learn More</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="environment_modal" tabindex="-1" role="dialog" aria-labelledby="environment_modalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title">Environment</h3>
+                                        </div>
+                                      <div class="modal-content">
+                                        <p class="modal-body">SmileyGo has stimulated NGOs that focus on reforestation, water management and recycling. As Pampas Grande NGOs accelerator, SmileyGo has triggered the reforestation program in the Peruvian Andes by planting 1000 pine and eucalyptus trees. Today, several NGOs are a part of the sustainability team of SmileyGo as well. Together we can make a difference in our environment starting from here and ending with Peru, Chile and Argentina.</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -129,10 +170,28 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Health</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <br>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#health_modal">Learn More</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="health_modal" tabindex="-1" role="dialog" aria-labelledby="health_modalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title">Health</h3>
+                                        </div>
+                                      <div class="modal-content">
+                                        <p class="modal-body">SSmileyGo has coached Pan Peru and other NGOs in order to make a sustainable difference in the rural health of Peru, Chile, Argentina and Mexico. We have helped over 12500 citizens in the past eleven years with the help not only from Pan Peru staff, but also from the children of Pampas Grande. Here, we are not only giving the Pampas citizens medical attention, but we are teaching them how to take of themselves through clinics, workshops and CPR conventions. The people receiving our help, are learning from us and hence depending more on themselves in the areas of pediatrics, neurology and dermatology.</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -142,10 +201,28 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Family Formation</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <br>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#familyFormation_modal">Learn More</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="familyFormation_modal" tabindex="-1" role="dialog" aria-labelledby="familyFormation_modalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h3 class="modal-title">Family Formation</h3>
+                                        </div>
+                                      <div class="modal-content">
+                                        <p class="modal-body">Pan Peru is our key player in regards to value formation, family counseling and community outreach in the Peruvian Andes. For the past ten years, SmileyGo has assisted Pan Peru in order to make a more solid impact in the community of Pampas Grande. Pan Peru has taken psychologists, family counselors and psychiatrists to rural Peru in order to promote social welfare, family union and spiritual health. In addition, Pan Peru takes spiritual pastors to teach the kids how to pray, meditate and reflect upon their dreams, goals and acts.</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
